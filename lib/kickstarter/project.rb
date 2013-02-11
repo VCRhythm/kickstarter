@@ -17,7 +17,7 @@ module Kickstarter
     end
     
     def description
-      @description ||= node.css('h2 + p').inner_html
+      @description ||= node.css('h2 + p').inner_text
     end
     
     def url

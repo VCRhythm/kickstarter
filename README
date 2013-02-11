@@ -19,7 +19,7 @@ A Kickstart::Project has the following attributes:
   .email
   .thumbnail_url
   .pledge_amount
-  .pledge_precent
+  .pledge_percent
   .pledge_deadline
   
 and methods:
