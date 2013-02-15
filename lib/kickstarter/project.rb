@@ -13,7 +13,7 @@ module Kickstarter
     end
     
     def name
-      @name ||= link.inner_html
+      @name ||= link.inner_text
     end
     
     def description
